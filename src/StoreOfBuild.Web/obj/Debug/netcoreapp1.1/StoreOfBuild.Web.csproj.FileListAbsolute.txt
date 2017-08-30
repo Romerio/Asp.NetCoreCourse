@@ -1,0 +1,8 @@
+/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Web/bin/Debug/netcoreapp1.1/StoreOfBuild.Web.deps.json
+/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Web/bin/Debug/netcoreapp1.1/StoreOfBuild.Web.runtimeconfig.json
+/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Web/bin/Debug/netcoreapp1.1/StoreOfBuild.Web.runtimeconfig.dev.json
+/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Web/obj/Debug/netcoreapp1.1/StoreOfBuild.Web.AssemblyInfo.cs
+/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Web/bin/Debug/netcoreapp1.1/StoreOfBuild.Web.dll
+/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Web/bin/Debug/netcoreapp1.1/StoreOfBuild.Web.pdb
+/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Web/obj/Debug/netcoreapp1.1/StoreOfBuild.Web.dll
+/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Web/obj/Debug/netcoreapp1.1/StoreOfBuild.Web.pdb
