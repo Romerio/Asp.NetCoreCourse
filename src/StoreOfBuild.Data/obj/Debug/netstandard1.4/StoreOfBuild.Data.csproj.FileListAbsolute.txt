@@ -1,8 +1,0 @@
-/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Data/bin/Debug/netstandard1.4/StoreOfBuild.Data.deps.json
-/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Data/bin/Debug/netstandard1.4/StoreOfBuild.Data.dll
-/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Data/bin/Debug/netstandard1.4/StoreOfBuild.Data.pdb
-/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Data/bin/Debug/netstandard1.4/StoreOfBuild.Domain.dll
-/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Data/bin/Debug/netstandard1.4/StoreOfBuild.Domain.pdb
-/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Data/obj/Debug/netstandard1.4/StoreOfBuild.Data.AssemblyInfo.cs
-/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Data/obj/Debug/netstandard1.4/StoreOfBuild.Data.dll
-/home/mero/Estudos/Asp.net/Curso/section7/src/StoreOfBuild.Data/obj/Debug/netstandard1.4/StoreOfBuild.Data.pdb
