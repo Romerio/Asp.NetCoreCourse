@@ -15,6 +15,7 @@ namespace StoreOfBuild.DI
                 options.UseSqlServer(dbConnectionString));
             services.AddSingleton(typeof(IRepository<>), typeof(Repository<>));
             services.AddSingleton(typeof(CategoryStorer));
+            services.AddSingleton(typeof(IUnitOfWork), typeof(UnitOfWork));
         }
     }
 }

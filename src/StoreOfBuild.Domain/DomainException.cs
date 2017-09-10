@@ -12,7 +12,7 @@ namespace StoreOfBuild.Domain
 
         public static void When(bool isInvalid, string error)
         {
-            if(!isInvalid)
+            if(isInvalid)
             {
                 throw new DomainException(error);  
             }

@@ -4,6 +4,8 @@ namespace StoreOfBuild.Domain.Products
     {
         public string Name { get; private set; }
 
+        protected Category(){}
+        
         public Category(string name)
         {
             ValidateValuesAndSetProperties(name);
