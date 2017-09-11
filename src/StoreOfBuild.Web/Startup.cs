@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using StoreOfBuild.DI;
 using StoreOfBuild.Domain;
+using StoreOfBuild.Web.Filters;
 
 namespace StoreOfBuild.Web
 {
@@ -32,7 +33,9 @@ namespace StoreOfBuild.Web
             Bootstrap.Configure(services, Configuration.GetConnectionString("DefaultConnection"));
 
             // Add framework services.
-            services.AddMvc();
+            services.AddMvc(config => {
+                config.Filters.Add(typeof(CustomExceptionFilter));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

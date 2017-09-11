@@ -8,6 +8,7 @@ gulp.task('js', () => {
 
     gulp.src([
             './node_modules/bootstrap/dist/js/bootstrap.min.js',
+            './node_modules/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js',
             './node_modules/jquery/dist/jquery.min.js',
             './node_modules/jquery-validation/dist/jquery.validate.min.js',
             './node_modules/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js',

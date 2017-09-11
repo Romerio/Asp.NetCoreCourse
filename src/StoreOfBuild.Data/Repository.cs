@@ -1,5 +1,6 @@
 using StoreOfBuild.Domain;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace StoreOfBuild.Data
 {
@@ -15,6 +16,10 @@ namespace StoreOfBuild.Data
         public TEntity GetById(int id)
         {
             return _context.Set<TEntity>().SingleOrDefault(e => e.Id == id);
+        }
+        public IEnumerable<TEntity> All()
+        {
+            return _context.Set<TEntity>().AsEnumerable();
         }
 
         public void Save(TEntity entity) 
