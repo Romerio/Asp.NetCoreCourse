@@ -2,12 +2,11 @@ using StoreOfBuild.Domain;
 using System.Linq;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using StoreOfBuild.Data.Contexts;
 
 namespace StoreOfBuild.Data.Repositories
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity
-    {
+     {
         protected readonly ApplicationDbContext _context;
 
         public Repository(ApplicationDbContext context)

@@ -7,6 +7,8 @@ namespace StoreOfBuild.Domain.Products
         public decimal Price { get; private set; }
         public int StockQuantity { get; private set; }
 
+        protected Product(){}
+
         public Product(string name, Category category, decimal price, int stockQuantity)
         {
             ValidateValues(name, category, price, stockQuantity);
